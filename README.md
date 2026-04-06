@@ -41,22 +41,22 @@ ESP32 Pinout Mapping:
 │                                     │
 │  Analog Inputs (ADC):               │
 │  ┌─────────────────────────────┐    │
-│  │ GPIO 32 ──── Left  Joystick X   │
-│  │ GPIO 33 ──── Left  Joystick Y   │
-│  │ GPIO 34 ──── Right Joystick X   │
-│  │ GPIO 35 ──── Right Joystick Y   │
+│  │ GPIO 32 ──── Left  Joystick X(Vrx)   │
+│  │ GPIO 33 ──── Left  Joystick Y(Vry)   │
+│  │ GPIO 34 ──── Right Joystick X(Vrx)   │
+│  │ GPIO 35 ──── Right Joystick Y(Vry)   │
 │  └─────────────────────────────┘    │
 │                                     │
 │  Digital Inputs (Buttons):          │
 │  ┌─────────────────────────────┐    │
-│  │ GPIO 26 ──── Left  Joystick SW   │
-│  │ GPIO 25 ──── Right Joystick SW   │
+│  │ GPIO 26 ──── Left  Joystick SW, Connected to Joystick's onboard switch   │
+│  │ GPIO 25 ──── Right Joystick SW, Connected to Joystick's onboard switch   │
 │  └─────────────────────────────┘    │
 │                                     │
 │  Touch Inputs:                      │
 │  ┌─────────────────────────────┐    │
-│  │ GPIO 13 ──── Touch Left (TL)     │
-│  │ GPIO 27 ──── Touch Right (TR)    │
+│  │ GPIO 13 ──── Touch Left (TL, A floating Jumper wire)     │
+│  │ GPIO 27 ──── Touch Right (TR, A floating Jumper wire)    │
 │  └─────────────────────────────┘    │
 │                                     │
 │  Serial Communication:              │
