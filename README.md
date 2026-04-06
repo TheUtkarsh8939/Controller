@@ -67,6 +67,7 @@ ESP32 Pinout Mapping:
 │                                     │
 └─────────────────────────────────────┘
 ```
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/1241e1a7-b9bd-4c79-a983-d9469704f3ab" />
 
 ### Pin Details
 
